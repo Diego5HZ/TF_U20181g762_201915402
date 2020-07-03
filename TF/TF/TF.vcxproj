@@ -122,7 +122,6 @@
   <ItemGroup>
     <ClCompile Include="frmMenu.cpp" />
     <ClCompile Include="frmNewTable.cpp" />
-    <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainLibrary.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -133,11 +132,8 @@
     <ClInclude Include="frmNewTable.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="List.h" />
-    <ClInclude Include="Main.h" />
     <ClInclude Include="MainLibrary.h" />
     <ClInclude Include="Row.h" />
-    <ClInclude Include="StringHelper.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="frmMenu.resx">

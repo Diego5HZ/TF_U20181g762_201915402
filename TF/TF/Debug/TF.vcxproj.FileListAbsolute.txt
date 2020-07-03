@@ -14,3 +14,7 @@ D:\Algoritmo\Trabajo final\descargado\TF\TF\Debug\TF.vcxprojAssemblyReference.ca
 D:\Algoritmo\Trabajo final\descargado\TF\TF\Debug\TF.frmMenu.resources
 D:\Algoritmo\Trabajo final\descargado\TF\TF\Debug\TF.frmNewTable.resources
 D:\Algoritmo\Trabajo final\descargado\TF\TF\Debug\TF.vcxproj.GenerateResource.cache
+D:\GitHub_Projects\TF_U20181g762_201915402\TF\TF\Debug\TF.vcxprojAssemblyReference.cache
+D:\GitHub_Projects\TF_U20181g762_201915402\TF\TF\Debug\TF.frmMenu.resources
+D:\GitHub_Projects\TF_U20181g762_201915402\TF\TF\Debug\TF.frmNewTable.resources
+D:\GitHub_Projects\TF_U20181g762_201915402\TF\TF\Debug\TF.vcxproj.GenerateResource.cache

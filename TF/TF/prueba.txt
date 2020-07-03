@@ -1,6 +1,5 @@
 	Id	|	Nombre	|	Apellido	|
-	4	|	Jose	|	R	|
-	5	|	Pedro	|	F	|
-	2	|	Mario	|	G	|
-	5	|	Julia	|	H	|
-	4	|	Pepe	|	B	|
+	1	|	Patrick	|	Ortiz	|
+	2	|	Diego	|	Henriquez	|
+	3	|	Pedro	|	Paramo	|
+	4	|	Luke	|	Skywalker	|

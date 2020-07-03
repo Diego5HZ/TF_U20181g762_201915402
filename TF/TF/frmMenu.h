@@ -2,8 +2,6 @@
 #include "MainLibrary.h"
 #include "vector"
 #include "string"
-#include "Row.h"
-#include "StringHelper.h"
 namespace TF {
 
 	using namespace System;
@@ -48,9 +46,7 @@ namespace TF {
 			grdvData->Columns->Add(data->Rows[i]->Cells[1]->Value->ToString(), data->Rows[i]->Cells[1]->Value->ToString());
 			grdvSearch->Columns->Add(data->Rows[i]->Cells[1]->Value->ToString(), data->Rows[i]->Cells[1]->Value->ToString());
 		}
-		fila = new Row(nVeces);
 		mainL = new MainLibrary(nVeces);
-		n_column = nVeces;
 	}
 	public: void frmMenu::GetDataType(DataGridView^ data, int nVeces) {
 		arrS = new vector<string>;
@@ -109,11 +105,7 @@ namespace TF {
 		/// <summary>
 		/// Required designer variable.
 		/// </summary>
-
-		int* arreglo = new int;
-		Row* fila;
 		MainLibrary* mainL;
-		int n_column;
 		ToolStripMenuItem^ dpiNew;
 		ToolStripMenuItem^ dpUp;
 		ToolStripMenuItem^ dpDown;
@@ -567,8 +559,13 @@ private: System::Void textBox1_TextChanged(System::Object^ sender, System::Event
 	
 }
 private: System::Void openToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-	openFileDialog1->Title = "Random Name";
-	openFileDialog1->ShowDialog();
+	openFileDialog1->Title = "Search";
+	auto result = openFileDialog1->ShowDialog();
+	if (result == System::Windows::Forms::DialogResult::Cancel)
+	{
+		delete openFileDialog1;
+		return;
+	}
 	grdvSearch->Columns->Clear();
 	grdvSearch->Rows->Clear();
 	grdvSearch->Visible = true;
@@ -586,7 +583,6 @@ private: System::Void openToolStripMenuItem_Click(System::Object^ sender, System
 	string word;
 	size_t found;
 	TextReader^ reader = gcnew StreamReader(strText);
-	/*TextReader^ reader = gcnew StreamReader(LR"(text.txt)");*/
 	txt = reader->ReadToEnd()->Trim();
 	MarshalString(txt, text);
 	text.erase(remove(text.begin(), text.end(), '\t'), text.end());
@@ -631,6 +627,7 @@ private: System::Void openToolStripMenuItem_Click(System::Object^ sender, System
 	}
 	reader->Close();
 	grdvSearch->Update();
+	
 }
 private: System::Void btnIndex_Click(System::Object^ sender, System::EventArgs^ e) {
 	int var = 0;

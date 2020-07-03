@@ -1,15 +1,10 @@
-﻿  frmNewTable.cpp
-C:\Users\Diego\source\repos\TF\TF\frmMenu.h(462,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Diego\source\repos\TF\TF\frmNewTable.h(250,22): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\algorithm(2140,25): warning C4244: 'argument': conversion from 'wchar_t' to 'unsigned char', possible loss of data
-C:\Users\Diego\source\repos\TF\TF\StringHelper.h(13): message : see reference to function template instantiation '_OutIt std::transform<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,StringHelper::toLower::<lambda_8c68ef830c8b7cbb48918c1b95e1fa2c>>(const _InIt,const _InIt,_OutIt,_Fn)' being compiled
-          with
-          [
-              _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
-              _Elem=wchar_t,
-              _InIt=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
-              _Fn=StringHelper::toLower::<lambda_8c68ef830c8b7cbb48918c1b95e1fa2c>
-          ]
-C:\Users\Diego\source\repos\TF\TF\frmMenu.h(608): warning C4700: uninitialized local variable 'found' used
+﻿  frmMenu.cpp
+D:\GitHub_Projects\TF_U20181g762_201915402\TF\TF\frmMenu.h(454,21): warning C4018: '<': signed/unsigned mismatch
+  frmNewTable.cpp
+D:\GitHub_Projects\TF_U20181g762_201915402\TF\TF\frmMenu.h(454,21): warning C4018: '<': signed/unsigned mismatch
+D:\GitHub_Projects\TF_U20181g762_201915402\TF\TF\frmNewTable.h(250,22): warning C4553: '==': result of expression not used; did you intend '='?
+  Generating Code...
+D:\GitHub_Projects\TF_U20181g762_201915402\TF\TF\frmMenu.h(605): warning C4700: uninitialized local variable 'found' used
+D:\GitHub_Projects\TF_U20181g762_201915402\TF\TF\frmMenu.h(605): warning C4700: uninitialized local variable 'found' used
   frmMenu.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  TF.vcxproj -> C:\Users\Diego\source\repos\TF\Debug\TF.exe
+  TF.vcxproj -> D:\GitHub_Projects\TF_U20181g762_201915402\TF\Debug\TF.exe
