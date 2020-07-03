@@ -1,0 +1,5 @@
+	fd	|	re	|	NOMBRE	|
+	1	|	2	|	Patrick	|
+	3	|	4	|	Tomas es Gil	|
+	5	|	6	|	Diego	|
+	7	|	8	|	Stufano	|

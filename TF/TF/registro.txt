@@ -1,0 +1,2 @@
+4	|Jose	|R	|
+4	|Pepe	|B	|

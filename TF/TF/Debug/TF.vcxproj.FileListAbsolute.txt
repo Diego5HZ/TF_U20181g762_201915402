@@ -1,0 +1,16 @@
+C:\Users\Diego\source\repos\TF\TF\Debug\TF.vcxprojAssemblyReference.cache
+C:\Users\Diego\source\repos\TF\TF\Debug\TF.frmMenu.resources
+C:\Users\Diego\source\repos\TF\TF\Debug\TF.frmNewTable.resources
+C:\Users\Diego\source\repos\TF\TF\Debug\TF.vcxproj.GenerateResource.cache
+D:\Algoritmo\Trabajo final\TF\TF\Debug\TF.vcxprojAssemblyReference.cache
+D:\Algoritmo\Trabajo final\TF\TF\Debug\TF.frmMenu.resources
+D:\Algoritmo\Trabajo final\TF\TF\Debug\TF.frmNewTable.resources
+D:\Algoritmo\Trabajo final\TF\TF\Debug\TF.vcxproj.GenerateResource.cache
+C:\Users\Diego\source\repos\TF_BackEnd\TF\Debug\TF.vcxprojAssemblyReference.cache
+C:\Users\Diego\source\repos\TF_BackEnd\TF\Debug\TF.frmMenu.resources
+C:\Users\Diego\source\repos\TF_BackEnd\TF\Debug\TF.frmNewTable.resources
+C:\Users\Diego\source\repos\TF_BackEnd\TF\Debug\TF.vcxproj.GenerateResource.cache
+D:\Algoritmo\Trabajo final\descargado\TF\TF\Debug\TF.vcxprojAssemblyReference.cache
+D:\Algoritmo\Trabajo final\descargado\TF\TF\Debug\TF.frmMenu.resources
+D:\Algoritmo\Trabajo final\descargado\TF\TF\Debug\TF.frmNewTable.resources
+D:\Algoritmo\Trabajo final\descargado\TF\TF\Debug\TF.vcxproj.GenerateResource.cache
